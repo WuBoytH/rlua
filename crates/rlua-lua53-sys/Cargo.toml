@@ -1,6 +1,6 @@
 [package]
 name = "rlua-lua53-sys"
-version = "0.1.1"
+version = "0.1.2"
 keywords = ["bindings", "lua"]
 categories = ["external-ffi-bindings"]
 description = "Bindings to lua's C API"
@@ -12,8 +12,8 @@ build = "build.rs"
 license = "MIT"
 
 [dependencies]
-libc = "0.2"
-skyline = { git = "https://github.com/WuBoytH/skyline-rs" }
+libc = "0.2.159"
+skyline = { git = "https://github.com/ultimate-research/skyline-rs" }
 
 [build-dependencies]
 cc = "1.0"
